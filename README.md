@@ -2,9 +2,10 @@
 
 - Los archivos -old no se están usando, pues se usan los con extensión hbs.
 - El package.json se le agregaron instrucciones para subirlo a heroku.
-
+```
 "scripts": {
-        "start": "node server.js",
+        "start": "node server.js"
+```
 
 para ejecutarlo seria ```npm start```
 
