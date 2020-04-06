@@ -1,16 +1,26 @@
 {
-    "name": "06-webserver",
-    "version": "1.0.0",
-    "description": "",
-    "main": "app.js",
-    "scripts": {
-        "start": "node server.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.17.1",
-        "hbs": "^4.1.0"
-    }
+  "name": "06-webserver",
+  "version": "1.0.0",
+  "description": "- Los archivos -old no se están usando, pues se usan los con extensión hbs. - El package.json se le agregaron instrucciones para subirlo a heroku. ``` \"scripts\": {         \"start\": \"node server.js\" ```",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilMik/webserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SilMik/webserver/issues"
+  },
+  "homepage": "https://github.com/SilMik/webserver#readme"
 }
